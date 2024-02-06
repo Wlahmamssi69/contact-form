@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contact-form">
+      <h2>Contact Form</h2>
+      <form id="contact-form" onsubmit="sendEmail(); return false;">
+        <div>
+          <input id="name" type="text" placeholder="Full Name" name="fullName" required/>
+        </div>
+        <div>
+          <input id="email" type="text" placeholder="Email" name="email" required/>
+        </div>
+        <div>
+          <input id="subject" type="text" placeholder="Subject" name="subject" />
+        </div>
+       <div>
+        <input id="message" type="textarea" placeholder="Write your message" name="message"/>
+       </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

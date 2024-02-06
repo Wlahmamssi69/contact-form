@@ -1,0 +1,43 @@
+
+body{
+    background:#4A55A2;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+h2{
+text-align: center;
+
+}
+input{
+    padding: 4px;
+    margin: 5px;
+    width: 200px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+textarea {
+    height: 150px;
+  }
+
+button{
+    margin: 5px;
+    width: 212px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #4A55A2;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    border: #4A55A2;
+}
+button:hover{
+    background-color:#6b76cb;  
+}
